@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>inscriptions</title>
+</head>
+<body> 
+   
+    <div class="is-flex is-justify-content-center">
+        <fieldset class="tour"> 
+            <div class="control">
+                <label for="questions">votre genre</label><br>
+          <label class="radio">
+            <input  type="radio" name="question">
+            Homme
+          </label>
+          <label class="radio">
+            <input type="radio" name="question">
+           femme
+          </label>
+        </div>
+    <div class="field">
+        <label class="label">Votre nom</label>
+        <div class="control">
+          <input class="input is-primary is-large" type="text" placeholder="Indiquez votre prenom" style="width: 50%;">
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Votre pseudo </label>
+        <div class="control has-icons-left has-icons-right" style="width: 50%;">
+          <input class="input is-success is-large" type="text" placeholder="Indiquez votre pseudo" value="John Doe59300">
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span>
+        </div>
+        <p class="help is-success">Ce pseudo est disponible </p>
+      </div>
+      
+      <div class="field">
+        <label class="label"> Votre Email</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input is-danger is-large" style="width: 65%;" type="email" placeholder="indiquez votre email" value="azerty@@gmail.com">
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-exclamation-triangle"></i>
+          </span>
+        </div>
+        <p class="help is-danger">cet email n'est pas valide </p>
+      </div>
+      
+      <div class="field">
+        <label class="label">sujet</label>
+        <div class="control">
+          <div class="select is-primary is-large">
+            <select>
+                <option>--</option>
+                <option>une question commercial</option>
+                <option>demande de disponibilité</option>
+              <option>un probleme avec votre commande </option>
+              <option>une remarque , une suggestions</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control is-primary is-large">
+          <textarea class="textarea" style="width: 50%;" placeholder="indiquez votre message"></textarea>
+        </div>
+      </div>
+      
+      <div class="field">
+        <div class="control">
+          <label class="checkbox">
+            <input type="checkbox">
+            j'accepte les <a href="#">conditions generales de ventes </a>
+          </label>
+        </div>
+      </div>
+      
+      <div class="field">
+       
+      </div>
+      
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-primary">s'inscrire</button>
+        </div>
+       
+        </div>
+      </div>
+    </div>
+</fieldset>
+</body>
+</html>
